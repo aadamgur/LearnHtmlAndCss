@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is for HTML lesson">
+    <meta name="robots" content="no-follow">
     <title>Day 2</title>
+    <link rel="shortcut icon" href="/HTML_2/assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <h1>Day 2</h1>
-    <iframe width="790" height="444" src="https://www.youtube.com/embed/XHTrLYShBRQ" title="Introducing iPhone 15 | WOW | Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe 
+    width="790" 
+    height="444" 
+    src="https://www.youtube.com/embed/XHTrLYShBRQ" 
+    title="Introducing iPhone 15 | WOW | Apple" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
     <hr>
     <table>
         <tr>
@@ -28,9 +38,93 @@
     </table>
     <hr>
     <form>
-        <label>Email</label>
-        <input type="email">
-        <input type="button" value="Send">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" value="">
+        <br>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" value="">
+        <br>
+        <label>Password</label>
+        <input type="password" name="password" value="">
+        <br>
+        <label>Number</label>
+        <input type="number" name="number" value="">
+        <br>
+        <label>Search</label>
+        <input type="search" name="search" value="">
+        <br>
+        <label>Website</label>
+        <input type="url" name="website" value="">
+        <br>
+        <label>Hidden</label>
+        <input type="hidden" name="hidden" value="">
+        <br>
+        <label>Phone</label>
+        <input type="tel" name="tel" value="">
+        <br>
+        <label>I read and understood</label>
+        <input type="checkbox" name="approve" value="">
+        <br>
+        <label>Gender</label>
+        <br>
+        <label>Man</label>
+        <input type="radio" name="Gender" value="">
+        <label>Female</label>
+        <input type="radio" name="Gender" value="">
+        <br>
+        <label>File upload</label>
+        <input type="file" name="file" value="">
+        <br>
+        <label>Color</label>
+        <input type="color" name="color" value="">
+        <br>
+        <label>Range</label>
+        <input type="range" name="range" value="">
+        <br>
+        <label>Date</label>
+        <input type="date" name="date" value="" required>
+        <br>
+        <label>Cities</label>
+        <select name="Cities" multiple size="5">
+            <option value="01">Bursa</option>
+            <option value="02">Istanbul</option>
+            <option value="03">Izmir</option>
+            <option value="04">Adana</option>
+            <option value="05">Rize</option>
+            </select>
+            <br>
+            <label>Give Feedback</label>
+            <br>
+            <textarea name="feedback" cols="30" rows="10" minlength="3"></textarea>
+            <br>
+        <input type="button" value="Dysfunctional" disabled>
+        <input type="submit">
+        <input type="reset">
     </form>
+    <hr>
+    <div>First div</div>
+    <div><p>One p inside div</p></div>
+    <div><h6>A header inside div</h6></div>
+    <div><a href="">A link inside div</a></div>
+    <hr>
+    <p>There is a <span>SPAN</span> in this paragraph</p>
+    <hr>
+    <p>&copy; &trade;</p>
+    <hr>
+    <!-- block element -->
+    <div>1</div>
+    <div>2</div>
+    <p>3</p>
+    <p>4</p>
+    <!-- inline element -->
+    <a href="">5</a>
+    <a href="">6</a>
+    <br>
+    <span>7</span>
+    <span>8</span>
+    <hr>
+    <div class="x">1</div>
+    <div class="x">2</div>
+    <div id="y">3</div>
 </body>
 </html>
