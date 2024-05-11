@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.aa{
+    text-decoration: underline;
+}
+.ab{
+    text-decoration: line-through;
+}
+.ac{
+    text-decoration: overline;
+}
+.ad{
+    font-style: italic;
+}
+.ae{
+    font-weight: bolder;
+}
+.af{
+    letter-spacing: 15px;
+}
+.ag{
+    word-spacing: 20px;
+}
+.ah{
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: chocolate;
+}
+a:hover{
+    color: red;
+}
+.ah:hover{
+    color: red;
+}
+a:active{
+    color: blue;
+}
+nav ul li{
+    color: red;
+    font-size: larger;
+}
+nav ul li, nav ul li p {
+    text-decoration: underline;
+}
+.bb ul li:first-child{
+    color: crimson;
+}
+.bb ul li:last-child{
+    color:blue ;
+}
+.bb ul li:nth-child(3){
+    color: green;
+}
+.cc{
+    background-color: aquamarine;
+    width: 600px;
+}
+.dd{
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+.ee{
+    background-color: brown;
+    width: 80%;
+}
+
+/* browserin default font size i 16px. */
+
+.ff{
+    font-size: 50px;
+}
+.gg{
+    font-size: 1.5em;
+}
+.hh{
+    font-size: 2rem;
+}
+.kk{
+    background-color: blueviolet;
+    color: white;
+    width: 50vw;
+}
+.nn{
+    background-color: red;
+    color: white;
+    height: 50vh;
+}
+.tt{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    padding: 50px;
+    margin: 50px;
+}
+.yy{
+    background-color: green;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.zz{
+    background-color: cadetblue;
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    padding: 50px 0;
+    text-align: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    float: left;
+    margin: 5px;
+}
+.clearfix{
+    clear: both;
+}
+.box2{
+    background-color: rgb(65, 175, 175);
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
+.box3{
+    display: none;
+}
